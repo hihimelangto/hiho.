@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+   margin: 0;
+   list-style: none;
+  }
+  body{
+    width: 100%;
+    height: 100vh;
+    background: mistyrose;
+    }
+    .container{
+      width: 90%;
+      height: 80vh;
+      background: white;
+      position: relative;
+      top: 53%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      border-radius: 20px;
+      box-shadow: 4px 3px 10px rgb(44, 42, 42)
+    }
+    .thumbnail{
+      position: absolute;
+      left: 10%;
+      bottom: 10%;
+    }
+    .thumbnail li{
+      padding: 70% 0;
+      cursor: pointer;
+      transition: .4s ease-in-out;
+    }
+    .thumbnail li img{
+      width: 50px;
+    }
+    .thumbnail li:hover{
+      transform: translate(10px);
+    }
+    .image-container {
+      position: absolute;
+      top: 25%;
+      left: 50%;
+      translate: translate(-20%, -50%)
+    }
+    .image-container img{
+      width: 150px;
+    }
+  h2{
+    margin: 40px;
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 2 2 4 #000;
+    animation:  color 8s infinite;
+  }
+  
+  @keyframes color {
+    0% {color: black}
+    10% {color: cyan}
+    20% {color: red}
+    30% {color: green}
+    40% {color: brown}
+    50% {color: khaki}
+    60% {color: lightgray}
+    70% {color: violet}
+    80% {color: purple}
+    90% {color: maroon}
+    100% {color: hotpink}
+  }
+  button {
+    top: 25%;
+    left: 40%;
+    position: absolute;
+  }
+  audio{
+    top: 15%;
+    left: 9%;
+    position: absolute;
+    
+  }
